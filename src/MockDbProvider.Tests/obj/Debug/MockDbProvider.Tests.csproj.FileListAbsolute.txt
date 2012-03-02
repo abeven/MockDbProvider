@@ -1,8 +1,0 @@
-C:\temp\MockDbProvider\MockDbProvider\MockDbProvider.Tests\bin\Debug\MockDbProvider.Tests.dll
-C:\temp\MockDbProvider\MockDbProvider\MockDbProvider.Tests\bin\Debug\MockDbProvider.Tests.pdb
-C:\temp\MockDbProvider\MockDbProvider\MockDbProvider.Tests\bin\Debug\MockDbProvider.dll
-C:\temp\MockDbProvider\MockDbProvider\MockDbProvider.Tests\bin\Debug\MockDbProvider.pdb
-C:\temp\MockDbProvider\MockDbProvider\MockDbProvider.Tests\obj\Debug\ResolveAssemblyReference.cache
-C:\temp\MockDbProvider\MockDbProvider\MockDbProvider.Tests\obj\Debug\MockDbProvider.Tests.dll
-C:\temp\MockDbProvider\MockDbProvider\MockDbProvider.Tests\obj\Debug\MockDbProvider.Tests.pdb
-C:\temp\MockDbProvider\MockDbProvider\MockDbProvider.Tests\bin\Debug\MockDbProvider.Tests.dll.config
