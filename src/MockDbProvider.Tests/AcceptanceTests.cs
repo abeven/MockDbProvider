@@ -101,5 +101,19 @@ namespace MockDbProvider.Tests
             var result = SUT.DataAccess.GetUserId("abc", "test");
             Assert.AreEqual(15559, result);
         }
+        
+        [TestMethod]
+        public void CanCreateTransaction()
+        {
+            var factory = DbProviderFactories.GetFactory("MockDbProvider") as MockDbProviderFactory;
+
+            using (var conn = factory.CreateConnection())
+            {
+                using (var trn = conn.BeginTransaction())
+                {
+                    Assert.IsNotNull(trn);
+                }
+            }
+        }
     }
 }
