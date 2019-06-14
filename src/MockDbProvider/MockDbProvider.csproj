@@ -49,6 +49,7 @@
     <Compile Include="IMockCommandExecution.cs" />
     <Compile Include="MockDbDataReader.cs" />
     <Compile Include="MockDbParameterCollection.cs" />
+    <Compile Include="MockDbTransaction.cs" />
     <Compile Include="Syntax\MockCommandBehavior.cs" />
     <Compile Include="MockDbCommandBuilder.cs">
       <SubType>Component</SubType>
