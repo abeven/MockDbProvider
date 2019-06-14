@@ -17,7 +17,7 @@ namespace MockDbProvider
         }
         protected override DbTransaction BeginDbTransaction(System.Data.IsolationLevel isolationLevel)
         {
-            throw new NotImplementedException();
+            return new MockDbTransaction(isolationLevel, this);
         }
 
         public override void ChangeDatabase(string databaseName)
